@@ -26,7 +26,7 @@ jobs:
         SALESFORCE_JWT_SECRET_KEY: ${{ secrets.SALESFORCE_JWT_SECRET_KEY }}
     
     - name: Deploy source
-      run: node_modules/sfdx-cli/bin/run force:source:push -u ciorg
+      run: node_modules/sfdx-cli/bin/run force:source:push
 
     - name: Run Apex test
       run: node_modules/sfdx-cli/bin/run force:apex:test:run -c -r human
