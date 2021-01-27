@@ -4,7 +4,8 @@
   "features": [],
   "settings": {
     "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
+      "enableS1DesktopEnabled": true,
+      "enableRelateContactToMultipleAccounts": true
     },
     "securitySettings": {
       "passwordPolicies": {
