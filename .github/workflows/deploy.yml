@@ -1,4 +1,3 @@
-#.github/workflows/main.yml
 name: Scratch org for review
 on: [push, pull_request]
 
